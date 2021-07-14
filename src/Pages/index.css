@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;;
+}
+
+h1,h3{
+  color: white;
+}
+
+.mainkHeader{
+  color: #333;
+  margin: auto;
+  width: 50%;
+  padding: auto;
+  white-space: nowrap;
+}
+body{
+  background-color:whitesmoke;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1354e;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #7d35f1;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.tableData{
+  margin: auto;
+  white-space: nowrap;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ 
+}
+
+.heading{
+  margin: auto;
+  width: 50%;
+  padding: auto;
+  white-space: nowrap;
+}
+
+
+.oneLaunch{
+  margin: auto;
+  white-space: nowrap;
+  width: 100%;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  padding: 32px 40px;
+  border-radius: 7px;
+  color: rgb(214, 36, 75);
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  height: 193px;
+  margin-top: 16px;
+  text-decoration: none;
+  background-image: url('space.jpg');
+}
+
+.buttonCSS{
+  display: block;
+    min-width: 200px;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0px 32px;
+    border: none;
+    border-radius: 25px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(230, 9, 156);
+    cursor: pointer;
+    outline: none;
+}
+
+.buttonFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
